@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,400;0,500;1,300&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;                        /*these are the first basic items */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, blue,pink);
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37) ;
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255,.3);
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 8%;
+    font-size: 40px;
+    color: rgb(223, 210, 210);
+}
+label{
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 238, 238);
+    padding: 3%;
+
+
+}
+button{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    background: transparent;
+    width: 35%;
+    margin-left: 35%;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 7px;
+    padding: 8px;
+}
+a{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 200;
+}
+input{
+    width: 60%;
+    margin-left: 90px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
